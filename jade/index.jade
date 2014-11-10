@@ -1,0 +1,1166 @@
+doctype html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7  
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8  
+//if IE 8
+  html.no-js.lt-ie9  
+// [if gt IE 8] <!
+html.no-js
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    title LinMotion - web development, ux/ui design, mobile development 
+    meta(name='description', content=' ')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    // Google Font
+    link(href='http://fonts.googleapis.com/css?family=Lato:300,400,700', rel='stylesheet', type='text/css')
+    // Bootstrap Core CSS
+    link(href='assets/css/bootstrap.min.css', rel='stylesheet', type='text/css')
+    // Plugins CSS
+    link(href='assets/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+    link(href='assets/css/animate.min.css', rel='stylesheet', type='text/css')
+    link(href='assets/css/owl.carousel.css', rel='stylesheet', type='text/css')
+    link(href='assets/css/owl.theme.css', rel='stylesheet', type='text/css')
+    // Modernizr JS
+    script(src='assets/js/modernizr.js')
+    // Custom CSS
+    link(href='css/bundle.min.css', rel='stylesheet', type='text/css')
+    //link(href='assets/css/features.css', rel='stylesheet', type='text/css')
+  // The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function
+  body#page-top(data-spy='scroll', data-target='.navbar-fixed-top', data-offset='51')
+    //if lt IE 7
+      p.browsehappy
+        | You are using an 
+        strong outdated
+        |  browser. Please 
+        a(href='http://browsehappy.com/') upgrade your browser
+        |  to improve your experience.
+    // BEGIN PAGE LOADER
+    #rj-loader
+      .preload
+        img(src='img/preloader.gif', alt='Loading')
+      // //.preload
+    // //END PAGE LOADER
+    // BEGIN INTRO SECTION
+    section#rj-intro
+      .intro-body.text-center
+        .container.intro-content
+          .row
+            .col-md-12 
+              h2.uppercase.headFirst
+                span web
+                i.fa.fa-star-o.hidden-xs
+                span mobile
+                i.fa.fa-star-o.hidden-xs
+                span ux/ui                
+              h1 Дизайн студия
+              h1 L
+                // span L
+                span.lowercase in
+                | Motion
+              h2.uppercase
+                i.fa.fa-star.hidden-xs
+                i.fa.fa-star.hidden-xs
+                i.fa.fa-star.hidden-xs
+                span Ми найкращі!
+                i.fa.fa-star.hidden-xs
+                i.fa.fa-star.hidden-xs
+                i.fa.fa-star.hidden-xs
+              h2 landing pages / corporate / stores / games / 
+              .page-scroll
+                a.btn.btn-lg.btn-custom(href='#rj-who-we-are') Узнать больше
+              // //.page-scroll
+          // //.row
+        // //.container
+      // //.intro-body
+    // //END INTRO SECTION
+    // BEGIN NAVBAR / NAVIGATION
+    nav#navigation.navbar.rj-navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+      .container
+        // Navbar Header
+        .navbar-header.page-scroll
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-rj-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#page-top')
+            img(src="https://api.fnkr.net/testimg/250x25/ff4811/FFF/?text=LinMotion" alt="LinMotion") 
+        // Collect the nav links, forms, and other content for toggling
+        .collapse.navbar-collapse.navbar-rj-collapse
+          ul.nav.navbar-nav.navbar-right
+            li.page-scroll
+              a(href='#rj-who-we-are') Про нас
+            li.page-scroll
+              a(href='#rj-funny-boxes') Услуги
+            li.page-scroll
+              a(href='#rj-portfolio') Портфолио
+            li.page-scroll
+              a(href='#rj-team') Команда
+            li.page-scroll
+              a(href='#rj-pricing-tables') Спец предложения
+            li.page-scroll
+              a(href='#rj-contact-us') Контакты 
+        // //.navbar-collapse
+      // //.container
+    // //END NAVBAR / NAVIGATION
+    // BEGIN WHO WE ARE SECTION
+    section#rj-who-we-are.section
+      .section-inner
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h2.main-title Кто мы?
+                h3.sub-title История о том как мы пришли в дизайн 
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-md-6
+              #carousel-who-we-are.owl-carousel.owl-theme
+                .item
+                  img.img-responsive.img-rounded(src='/img/who-we-are/who-we-are-image-1.jpg', alt='')
+                .item
+                  img.img-responsive.img-rounded(src='/img/who-we-are/who-we-are-image-2.jpg', alt='')
+                .item
+                  img.img-responsive.img-rounded(src='/img/who-we-are/who-we-are-image-3.jpg', alt='')
+              // //.owl-carousel
+            .col-md-6
+              .who-we-are-text
+                h4 В прошлом
+                p
+                  | 
+                .page-scroll
+                  a.btn.btn-lg.btn-custom(href='#rj-little-known-facts') Read More
+              // //.who-we-are-text
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END WHO WE ARE SECTION
+    // BEGIN COUNTERS SECTION
+    section#rj-counters.section.section-bgtype-image
+      .section-inner
+        .bg-overlay
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h2.main-title Little Known Facts!
+                h3.sub-title Some Of The Cool Facts About Us That Will Blow Your Mind
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-sm-6.col-md-3.text-center
+              .counter-item.not-right-column.top-column
+                i.fa.fa-thumbs-o-up.fa-5x
+                .inner-content
+                  span.number(data-from='2200', data-to='2780', data-refresh-interval='10')
+                    | 2200
+                p Projects
+              // //.counter-item
+            .col-sm-6.col-md-3.text-center
+              .counter-item.not-right-column.top-column
+                i.fa.fa-smile-o.fa-5x
+                .inner-content
+                  span.number(data-from='330', data-to='487', data-refresh-interval='10')
+                    | 330
+                p Clients
+              // //.counter-item
+            .col-sm-6.col-md-3.text-center
+              .counter-item.not-right-column
+                i.fa.fa-coffee.fa-5x
+                .inner-content
+                  span.number(data-from='13300', data-to='13730', data-refresh-interval='10')
+                    | 13300
+                p Coffee
+              // //.counter-item
+            .col-sm-6.col-md-3.text-center
+              .counter-item
+                i.fa.fa-gift.fa-5x
+                .inner-content
+                  span.number(data-from='10', data-to='154', data-refresh-interval='10')
+                    | 23
+                p Awards
+              // //.counter-item
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END COUNTERS SECTION
+    // BEGIN CONTENT BOXES SECTION
+    section#rj-why-us.section
+      .section-inner
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h2.main-title Почему мы?
+                h3.sub-title 6 причин выбрать нас
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-sm-4.col-md-4
+              .content-box.style-one.top-column.clearfix
+                span.content-box-icon
+                  i.fa.fa-rocket
+                .content-box-text
+                  h4 Speed
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.content-box-text
+              // //.content-box
+            .col-sm-4.col-md-4
+              .content-box.style-one.top-column.clearfix
+                span.content-box-icon
+                  i.fa.fa-thumbs-o-up
+                .content-box-text
+                  h4 Quality
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.content-box-text
+              // //.content-box
+            .col-sm-4.col-md-4
+              .content-box.style-one.top-column.clearfix
+                span.content-box-icon
+                  i.fa.fa-star-o
+                .content-box-text
+                  h4 Expertise
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.content-box-text
+              // //.content-box
+          // //.row
+          .row
+            .col-sm-4.col-md-4
+              .content-box.style-one.bottom-column.not-right-column.clearfix
+                span.content-box-icon
+                  i.fa.fa-shield
+                .content-box-text
+                  h4 Security
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.content-box-text
+              // //.content-box
+            .col-sm-4.col-md-4
+              .content-box.style-one.bottom-column.not-right-column.clearfix
+                span.content-box-icon
+                  i.fa.fa-send-o
+                .content-box-text
+                  h4 Reliability
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.content-box-text
+              // //.content-box
+            .col-sm-4.col-md-4
+              .content-box.style-one.bottom-column.clearfix
+                span.content-box-icon
+                  i.fa.fa-support
+                .content-box-text
+                  h4 Price
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.content-box-text
+              // //.content-box
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END CONTENT BOXES SECTION
+    // BEGIN CHARTS SECTION
+    section#rj-charts.section.section-bgtype-image
+      .section-inner
+        .bg-overlay
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h3.main-title Our Main Skills
+                h3.sub-title We Have Creativity And Knowledge To Development
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-sm-6.col-md-3.chart-item.not-right-column.top-column.text-center
+              .chart-content
+                .chart.chart-style-two(data-percent='83', data-bar-color='#7F009C', data-track-color='#f2f2f2')
+                  span.percent
+                // //.chart
+                .chart-text
+                  h4 Programming
+                // //.chart-text
+              // //.chart-content
+            // //.chart-item
+            .col-sm-6.col-md-3.chart-item.not-right-column.top-column.text-center
+              .chart-content
+                .chart.chart-style-two(data-percent='73', data-bar-color='#7F009C', data-track-color='#fff')
+                  span.percent
+                // //.chart
+                .chart-text
+                  h4 Design
+                // //.chart-text
+              // //.chart-content
+            // //.chart-item
+            .col-sm-6.col-md-3.chart-item.not-right-column.top-column.text-center
+              .chart-content
+                .chart.chart-style-two(data-percent='64', data-bar-color='#7F009C', data-track-color='#fff')
+                  span.percent
+                // //.chart
+                .chart-text
+                  h4 Mobile 
+                // //.chart-text
+              // //.chart-content
+            // //.chart-item
+            .col-sm-6.col-md-3.chart-item.text-center
+              .chart-content
+                .chart.chart-style-two(data-percent='78', data-bar-color='#7F009C', data-track-color='#fff')
+                  span.percent
+                // //.chart
+                .chart-text
+                  h4 user analytics
+                // //.chart-text
+              // //.chart-content
+            // //.chart-item
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END CHARTS SECTION
+    // BEGIN FUNNY BOXES SECTION
+    section#rj-funny-boxes.section
+      .section-inner
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h3.main-title Our Services
+                h4.sub-title We Are Experts In Developing Your Business
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-sm-4.col-md-4
+              .funny-box.float-shadow.not-right-column.text-center
+                span.funny-box-icon
+                  i.fa.fa-lightbulb-o
+                .funny-box-text
+                  h4 Web Design
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.funny-box-text
+              // //.funny-box
+            .col-sm-4.col-md-4
+              .funny-box.float-shadow.not-right-column.text-center
+                span.funny-box-icon
+                  i.fa.fa-heart-o
+                .funny-box-text
+                  h4 Graphic Design
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.funny-box-text
+              // //.funny-box
+            .col-sm-4.col-md-4
+              .funny-box.float-shadow.text-center
+                span.funny-box-icon
+                  i.fa.fa-flask
+                .funny-box-text
+                  h4 Branding
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                // //.funny-box-text
+              // //.funny-box
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END FUNNY BOXES SECTION
+    // BEGIN QUOTE SECTION
+    section#rj-quote.section.section-bgtype-image
+      .section-inner
+        .bg-overlay
+        .container.section-content
+          .row
+            .col-md-12
+              .quote-text.text-center
+                span.quote-icon
+                  i.fa.fa-quote-right.fa-4x
+                h2
+                  | &quot;The business schools reward difficult complex behavior more than simple behavior, but simple behavior is more effective&quot;.
+                h2.lead.quote-by (Warren Buffet)
+              // //.quote-text
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END QUOTE SECTION
+    // BEGIN PORTFOLIO SECTION
+    section#rj-portfolio.section
+      .section-inner
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h2.main-title Portfolio 3 Columns
+                h3.sub-title Hover Over The Image!
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-sm-6.col-md-4.portfolio-item.grow
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 1
+                      p Grow
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-1.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+            .col-sm-6.col-md-4.portfolio-item.grow-rotate
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 2
+                      p Grow Rotate
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-2.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+            .col-md-4.portfolio-item.shrink.hidden-xs.hidden-sm
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 3
+                      p Shrink
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-3.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+          // //.row
+          .row
+            .col-sm-6.col-md-4.portfolio-item.shrink-rotate
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 4
+                      p Shrink Rotate
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-4.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+            .col-sm-6.col-md-4.portfolio-item.float
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 5
+                      p Float
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-5.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+            .col-md-4.portfolio-item.sink.hidden-xs.hidden-sm
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 6
+                      p Sink
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-6.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+          // //.row
+          .row
+            .col-sm-6.col-md-4.portfolio-item.bubble-top
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 7
+                      p Bubble Top
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-7.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+            .col-sm-6.col-md-4.portfolio-item.bubble-bottom
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 8
+                      p Bubble Bottom
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-8.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+            .col-md-4.portfolio-item.pop.hidden-xs.hidden-sm
+              .inner-content
+                .portfolio-content
+                  .portfolio-detail
+                    .portfolio-text
+                      h4 Hover Effect 9
+                      p Pop
+                    // //.portfolio-text
+                  // //.portfolio-detail
+                // //.portfolio-content
+                img.img-responsive(src='img/portfolio/portfolio-image-9.jpg', alt='')
+              // //.inner-content
+            // //.portfolio-item
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END PORTFOLIO SECTION
+    // BEGIN KEEP IN TOUCH SECTION
+    section#rj-keep-in-touch.section.section-bgtype-image
+      .section-inner
+        .bg-overlay
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h3.main-title Keep In Touch With Us
+                h4.sub-title We Would Love to Know From You
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-sm-4.col-md-2
+              .social-icon-item.text-center.not-right-column.top-column
+                span.social-icon
+                  i.fa.fa-facebook.fa-5x
+                a(href='#facebook')
+                  h4 Facebook
+              // //.social-icon-item
+            .col-sm-4.col-md-2
+              .social-icon-item.text-center.not-right-column.top-column
+                span.social-icon
+                  i.fa.fa-twitter.fa-5x
+                a(href='#twitter')
+                  h4 Twitter
+              // //.social-icon-item
+            .col-sm-4.col-md-2
+              .social-icon-item.text-center.not-right-column.top-column
+                span.social-icon
+                  i.fa.fa-google-plus.fa-5x
+                a(href='#google+')
+                  h4 Google +
+              // //.social-icon-item
+            .col-sm-4.col-md-2
+              .social-icon-item.text-center.not-right-column
+                span.social-icon
+                  i.fa.fa-youtube.fa-5x
+                a(href='#youtube')
+                  h4 Youtube
+              // //.social-icon-item
+            .col-sm-4.col-md-2
+              .social-icon-item.text-center.not-right-column
+                span.social-icon
+                  i.fa.fa-pinterest.fa-5x
+                a(href='#pinterest')
+                  h4 Pinterest
+              // //.social-icon-item
+            .col-sm-4.col-md-2
+              .social-icon-item.text-center
+                span.social-icon
+                  i.fa.fa-instagram.fa-5x
+                a(href='#instagram')
+                  h4 Instagram
+              // //.social-icon-item
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END KEEP IN TOUCH SECTION
+    // BEGIN MEET THE TEAM SECTION
+    section#rj-team.section
+      .section-inner
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h3.main-title Meet The Team
+                h4.sub-title We Are Here For You
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-sm-6.col-md-3.team-item.not-right-column.top-column
+              .img-rounded.team-element
+                .team-inner
+                  .team-detail
+                    .team-content
+                      h4 Nick Carraway
+                      p ECD / Founder
+                    // //.team-content
+                  // //.team-detail
+                // //.team-inner
+                img.img-responsive.img-rounded(src='img/team/team-image-1.jpg', alt='')
+              // //.team-element
+            // //.team-item
+            .col-sm-6.col-md-3.team-item.not-right-column.top-column
+              .img-rounded.team-element
+                .team-inner
+                  .team-detail
+                    .team-content
+                      h4 Daisy Buchanan
+                      p CEO / Co-Founder
+                    // //.team-content
+                  // //.team-detail
+                // //.team-inner
+                img.img-responsive.img-rounded(src='img/team/team-image-2.jpg', alt='')
+              // //.team-element
+            // //.team-item
+            .col-sm-6.col-md-3.team-item.not-right-column
+              .img-rounded.team-element
+                .team-inner
+                  .team-detail
+                    .team-content
+                      h4 Myrtle Wilson
+                      p Creative Director
+                    // //.team-content
+                  // //.team-detail
+                // //.team-inner
+                img.img-responsive.img-rounded(src='img/team/team-image-3.jpg', alt='')
+              // //.team-element
+            // //.team-item
+            .col-sm-6.col-md-3.team-item
+              .img-rounded.team-element
+                .team-inner
+                  .team-detail
+                    .team-content
+                      h4 Catherine
+                      p Public Relation
+                    // //.team-content
+                  // //.team-detail
+                // //.team-inner
+                img.img-responsive.img-rounded(src='img/team/team-image-4.jpg', alt='')
+              // //.team-element
+            // //.team-item
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END MEET THE TEAM SECTION
+    // BEGIN TESTIMONIALS SECTION
+    section#rj-testimonial.section.section-bgtype-image
+      .section-inner
+        .bg-overlay
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h3.main-title Testimonials
+                h3.sub-title We Make Our Customers Happy
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .col-sm-4.col-md-4
+              .testimonial-item.text-center.not-right-column
+                .testimonial-box
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                img.img-circle.img-thumbnail(width='100', src='img/testimonial/testimonial-image-1.jpg', alt='')
+                h4 Jane Doe
+                h5 Manager at Microsoft
+              // //.testimonial-item
+            .col-sm-4.col-md-4
+              .testimonial-item.text-center.not-right-column
+                .testimonial-box
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                img.img-circle.img-thumbnail(width='100', src='img/testimonial/testimonial-image-2.jpg', alt='')
+                h4 Jane Doe
+                h5 Creative Director at Apple
+              // //.testimonial-item
+            .col-sm-4.col-md-4
+              .testimonial-item.text-center
+                .testimonial-box
+                  p
+                    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                img.img-circle.img-thumbnail(width='100', src='img/testimonial/testimonial-image-3.jpg', alt='')
+                h4 Jane Doe
+                h5 Co-Founder at Cisco
+              // //.testimonial-item
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END TESTIMONIALS SECTION
+    // BEGIN PRICING TABLES SECTION
+    section#rj-pricing-tables.section
+      .section-inner
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h3.main-title Our Pricing
+                h3.sub-title What We Can Offer For Our Customers
+                span.section-line
+              // //.section-title
+          // //.row
+          // BEGIN PRICING TABLES
+          .pricing-table.style-two
+            .row
+              .col-md-3.pricing-wrapper.text-center.not-right-column
+                .pricing-column
+                  .plan-title
+                    h2 Starter
+                    .pricing-box
+                      span.price
+                        span.symbol $
+                        | 18
+                      span.month / Month
+                      .price-info Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    // //.pricing-box
+                  // //.plan-title
+                  ul.item-list
+                    li 4 Core Processor
+                    li 100GB Storage
+                    li 24/7 Free Support
+                    li Weekly  Backups
+                  .plan-footer
+                    a.btn.btn-lg.btn-custom(href='#') Get Started
+                  // //.plan-footer
+                // //.pricing-column
+              // //.pricing-wrapper
+              .col-md-3.pricing-wrapper.text-center.not-right-column
+                .pricing-column
+                  .plan-title
+                    h2 Basic
+                    .pricing-box
+                      span.price
+                        span.symbol $
+                        | 29
+                      span.month / Month
+                      .price-info Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    // //.pricing-box
+                  // //.plan-title
+                  ul.item-list
+                    li 4 Core Processor
+                    li 300GB Storage
+                    li 24/7 Free Support
+                    li Daily  Backups
+                  .plan-footer
+                    a.btn.btn-lg.btn-custom(href='#') Get Started
+                  // //.plan-footer
+                // //.pricing-column
+              // //.pricing-wrapper
+              .col-md-3.pricing-wrapper.text-center.not-right-column
+                .pricing-column
+                  .plan-title
+                    h2 Pro
+                    .pricing-box
+                      span.price
+                        span.symbol $
+                        | 50
+                      span.month / Month
+                      .price-info Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    // //.pricing-box
+                  // //.plan-title
+                  ul.item-list
+                    li 4 Core Processor
+                    li 1TB Storage
+                    li 24/7 Free Support
+                    li Hourly  Backups
+                  .plan-footer
+                    a.btn.btn-lg.btn-custom(href='#') Get Started
+                  // //.plan-footer
+                // //.pricing-column
+              // //.pricing-wrapper
+              .col-md-3.pricing-wrapper.text-center
+                .pricing-column
+                  .plan-title
+                    h2 Ultra
+                    .pricing-box
+                      span.price
+                        span.symbol $
+                        | 99
+                      span.month / Month
+                      .price-info Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    // //.pricing-box
+                  // //.plan-title
+                  ul.item-list
+                    li 4 Core Processor
+                    li 3TB Storage
+                    li 24/7 Free Support
+                    li Hourly  Backups
+                  .plan-footer
+                    a.btn.btn-lg.btn-custom(href='#') Get Started
+                  // //.plan-footer
+                // //.pricing-column
+              // //.pricing-wrapper
+            // //.row
+          // //END PRICING TABLES
+        // //.section-content
+      // //.section-inner
+    // //END PRICING TABLES SECTION
+    // BEGIN COUNTDOWN SECTION
+    section#rj-countdown.section.section-bgtype-image
+      .section-inner
+        .bg-overlay
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h3.main-title Coming Soon
+                h3.sub-title We&apos;re Making Something Interesting and Awesome Products Amazing
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            .countdown.text-center
+              .cd-content(data-year='2020', data-month='1', data-day='1')
+            // /.countdown
+          // //.row
+          .row
+            .col-md-4.col-md-offset-4
+              .countdown-form
+                form(role='form')
+                  .input-group
+                    input.form-control.input-lg(type='text', placeholder='example@rinjani.com')
+                    span.input-group-btn
+                      button.btn.btn-lg.btn-custom(type='submit') Notify Me
+                  // //.input-group
+              // //.countdown-form
+          // //.row
+          .row
+            .col-md-8.col-md-offset-2
+              .countdown-text.text-center
+                p.lead
+                  | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+              // //.countdown-text
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END COUNTDOWN SECTION
+    // BEGIN TIMELINE SECTION
+    section#rj-timeline.section
+      .section-inner
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h2.main-title Our History
+                h3.sub-title Travel Through Time With Us!
+                span.section-line
+              // //.section-title
+          // //.row
+          // BEGIN TIMELINE
+          .row
+            .col-md-12
+              ul.timeline
+                li
+                  .timeline-badge(data-toggle='tooltip', data-placement='right', title='', data-original-title='1 hours ago')
+                    i.fa.fa-dot-circle-o
+                  // //.timeline-badge
+                  .timeline-panel
+                    .timeline-heading
+                      img.img-responsive.img-thumbnail.img-rounded(src='img/timeline/timeline-image-1.jpg', alt='')
+                      h4.timeline-title
+                        a(href='') Timeline Event
+                    // //.timeline-heading
+                    .timeline-body
+                      p
+                        | Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha.
+                    // //.timeline-body
+                  // //.timeline-panel
+                li.timeline-inverted
+                  .timeline-badge(data-toggle='tooltip', data-placement='left', title='', data-original-title='2 hours ago')
+                    i.fa.fa-dot-circle-o
+                  // //.timeline-badge
+                  .timeline-panel
+                    .timeline-heading
+                      img.img-responsive.img-thumbnail.img-rounded(src='img/timeline/timeline-image-2.jpg', alt='')
+                      h4.timeline-title
+                        a(href='') Timeline Event
+                    // //.timeline-heading
+                    .timeline-body
+                      p
+                        | Gunung ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya. Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan diusulkan penambahannya sehingga menjadi 76.000 ha ke arah barat dan timur.
+                    // //.timeline-body
+                  // //.timeline-panel
+                li
+                  .timeline-badge(data-toggle='tooltip', data-placement='right', title='', data-original-title='2 hours ago')
+                    i.fa.fa-dot-circle-o
+                  // //.timeline-badge
+                  .timeline-panel
+                    .timeline-heading
+                      img.img-responsive.img-thumbnail.img-rounded(src='img/timeline/timeline-image-3.jpg', alt='')
+                      h4.timeline-title
+                        a(href='') Timeline Event
+                    // //.timeline-heading
+                    .timeline-body
+                      p
+                        | Secara administratif gunung ini berada dalam wilayah tiga kabupaten: Lombok Timur, Lombok Tengah dan Lombok Barat.
+                    // //.timeline-body
+                  // //.timeline-panel
+                li.timeline-inverted
+                  .timeline-badge(data-toggle='tooltip', data-placement='left', title='', data-original-title='3 hours ago')
+                    i.fa.fa-dot-circle-o
+                  // //.timeline-badge
+                  .timeline-panel
+                    .timeline-heading
+                      img.img-responsive.img-thumbnail.img-rounded(src='img/timeline/timeline-image-4.jpg', alt='')
+                      h4.timeline-title
+                        a(href='') Timeline Event
+                    // //.timeline-heading
+                    .timeline-body
+                      p
+                        | Gunung Rinjani dengan titik tertinggi 3.726 m dpl, mendominasi sebagian besar pemandangan Pulau Lombok bagian utara.
+                    // //.timeline-body
+                  // //.timeline-panel
+                li.timeline-inverted
+                  .timeline-badge(data-toggle='tooltip', data-placement='left', title='', data-original-title='4 hours ago')
+                    i.fa.fa-dot-circle-o
+                  // //.timeline-badge
+                  .timeline-panel
+                    .timeline-heading
+                      img.img-responsive.img-thumbnail.img-rounded(src='img/timeline/timeline-image-5.jpg', alt='')
+                      h4.timeline-title
+                        a(href='') Timeline Event
+                    // //.timeline-heading
+                    .timeline-body
+                      p
+                        | Di sebelah barat kerucut Rinjani terdapat kaldera dengan luas sekitar 3.500 m x 4.800 m, memanjang kearah timur dan barat.
+                    // //.timeline-body
+                  // //.timeline-panel
+                li
+                  .timeline-badge(data-toggle='tooltip', data-placement='right', title='', data-original-title='7 hours ago')
+                    i.fa.fa-dot-circle-o
+                  // //.timeline-badge
+                  .timeline-panel
+                    .timeline-heading
+                      img.img-responsive.img-thumbnail.img-rounded(src='img/timeline/timeline-image-6.jpg', alt='')
+                      h4.timeline-title
+                        a(href='') Timeline Event
+                    // //.timeline-heading
+                    .timeline-body
+                      p
+                        | Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya.
+                    // //.timeline-body
+                  // //.timeline-panel
+                li.timeline-inverted
+                  .timeline-badge(data-toggle='tooltip', data-placement='left', title='', data-original-title='11 hours ago')
+                    i.fa.fa-dot-circle-o
+                  // //.timeline-badge
+                  .timeline-panel
+                    .timeline-heading
+                      img.img-responsive.img-thumbnail.img-rounded(src='img/timeline/timeline-image-7.jpg', alt='')
+                      h4.timeline-title
+                        a(href='') Timeline Event
+                    // //.timeline-heading
+                    .timeline-body
+                      p
+                        | Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan diusulkan penambahannya sehingga menjadi 76.000 ha ke arah barat dan timur.
+                    // //.timeline-body
+                  // //.timeline-panel
+              // //.timeline
+            // //.col-md-12
+          // //END TIMELINE
+        // //.section-content
+      // //.section-inner
+    // //END TIMELINE SECTION
+    // BEGIN CONTACT US SECTION
+    section#rj-contact-us.section.section-bgtype-image
+      .section-inner
+        .bg-overlay
+        .container.section-content
+          .row
+            .col-md-12
+              .section-title.text-center
+                h3.main-title Contact Us
+                h4.sub-title Don&apos;t Hesitate To Contact Us
+                span.section-line
+              // //.section-title
+          // //.row
+          .row
+            form.contact-us-form(role='form')
+              .col-md-5.col-md-offset-1
+                .form-group
+                  label(for='name') Name*
+                  .input-group.input-group-lg
+                    span.input-group-addon
+                      i.fa.fa-user
+                    input#name.form-control(type='text')
+                  // //.input-group
+                // //.form-group
+                .form-group
+                  label(for='email') Email*
+                  .input-group.input-group-lg
+                    span.input-group-addon
+                      i.fa.fa-envelope
+                    input#email.form-control(type='email')
+                  // //.input-group
+                // //.form-group
+                .form-group.form-group-bottom
+                  label(for='subject') Subject*
+                  .input-group.input-group-lg
+                    span.input-group-addon
+                      i.fa.fa-info
+                    input#subject.form-control(type='text')
+                  // //.input-group
+                // //.form-group
+              .col-md-5
+                .form-group
+                  label(for='message') Message*
+                  .input-group.input-group-lg
+                    span.input-group-addon
+                      i.fa.fa-pencil
+                    textarea#message.form-control
+                  // //.input-group
+                // //.form-group
+                .form-group.form-group-bottom
+                  button.btn.btn-lg.btn-custom(type='submit') Send Message
+                // //.form-group
+          // //.row
+          .row
+            .col-md-10.col-md-offset-1
+              .social-icon-text.text-center
+                h2 OR
+                h4 Find Us On Social Media!
+                ul.social-icon-list.list-unstyled.list-inline.text-center
+                  li
+                    a(href='#')
+                      i.fa.fa-facebook
+                  li
+                    a(href='#')
+                      i.fa.fa-twitter
+                  li
+                    a(href='#')
+                      i.fa.fa-google-plus
+                  li
+                    a(href='#')
+                      i.fa.fa-youtube
+                  li
+                    a(href='#')
+                      i.fa.fa-pinterest
+                  li.hidden-xs
+                    a(href='#')
+                      i.fa.fa-instagram
+              // //.social-icon-text
+          // //.row
+        // //.section-content
+      // //.section-inner
+    // //END CONTACT US SECTION
+    // BEGIN FOOTER
+    footer.footer
+      // BEGIN FOOTER SECTION
+      section#rj-footer
+        .container
+          .row
+            .col-sm-4.col-md-4.footer-column.not-right-column
+              .footer-text
+                h4 Get In Touch
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla rebds vel pellentesqu
+                ul.icon-list.list-unstyled
+                  li
+                    i.fa.fa-phone
+                    |  +622176811
+                  li
+                    i.fa.fa-envelope-o
+                    |  no-reply@rinjani.com
+                  li
+                    i.fa.fa-map-marker
+                    |  14374 Salemba Raya, Central Jakarta
+                  li
+                    i.fa.fa-clock-o
+                    |  Monday to Friday - 8.30 PM to 17 PM
+                ul.social-icon-list.list-unstyled.list-inline
+                  li
+                    a(href='#')
+                      i.fa.fa-facebook
+                  li
+                    a(href='#')
+                      i.fa.fa-twitter
+                  li
+                    a(href='#')
+                      i.fa.fa-google-plus
+                  li
+                    a(href='#')
+                      i.fa.fa-youtube
+                  li
+                    a(href='#')
+                      i.fa.fa-pinterest
+                  li.hidden-xs
+                    a(href='#')
+                      i.fa.fa-instagram
+              // //.footer-text
+            // //.footer-column
+            .col-sm-4.col-md-4.footer-column.not-right-column
+              .footer-text
+                h4 About Us
+                p
+                  | Gunung Rinjani adalah gunung yang berlokasi di Pulau Lombok, Nusa Tenggara Barat. Gunung ini merupakan gunung favorit bagi pendaki Indonesia karena keindahan pemandangannya. Gunung ini merupakan bagian dari Taman Nasional Gunung Rinjani yang memiliki luas sekitar 41.330 ha dan ini akan diusulkan penambahannya sehingga menjadi 76.000 ha ke arah barat dan timur. Secara administratif gunung ini berada dalam wilayah tiga kabupaten: Lombok Timur, Lombok Tengah dan Lombok Barat.
+              // //.footer-text
+            // //.footer-column
+            .col-sm-4.col-md-4.footer-column
+              .footer-text
+                h4 Newsletter
+                p Keep yourself up to date!
+                form.newsletter-form(role='form')
+                  .form-group
+                    label(for='email_address') Email Address*
+                    input#email_address.form-control(type='email')
+                  .form-group
+                    label(for='first_name') First Name
+                    input#first_name.form-control(type='text')
+                  button.btn.btn-custom(type='submit') Subscribe
+              // //.footer-text
+            // //.footer-column
+          // //.row
+        // //.container
+      // //END FOOTER SECTION
+      // BEGIN COPYRIGHT
+      #rj-copyright
+        .container
+          .row
+            .col-md-12
+              p
+                | Copyright &copy; 2014 
+                a(href='#') LinMotion.
+          // //.row
+        // //.container
+      // //END COPYRIGHT
+    // //END FOOTER 
+    // Plugins JS
+    script(src='assets/js/jquery.min.js')
+    script(src='assets/js/bootstrap.min.js')
+    script(src='assets/js/detectmobilebrowser.js')
+    script(src='assets/js/jquery.easing.min.js')
+    script(src='assets/js/jquery.backstretch.min.js')
+    script(src='assets/js/jquery.sticky.js')
+    script(src='assets/js/jquery.inview.min.js')
+    script(src='assets/js/jquery.countTo.js')
+    script(src='assets/js/jquery.easypiechart.min.js')    
+    script(src='assets/js/jquery.countdown.min.js')
+    script(src='assets/js/owl.carousel.min.js')
+    // Custom Theme JS
+    script(src='js/all.min.js')    
+    //- script(src='assets/js/features/charts.js')
+    //- script(src='assets/js/features/content-boxes.js')
+    //- script(src='assets/js/features/countdown.js')
+    //- script(src='assets/js/features/counters.js')
+    //- script(src='assets/js/features/funny-boxes.js')
+    //- script(src='assets/js/features/meet-the-team.js')
+    //- script(src='assets/js/features/portfolio.js')
+    //- script(src='assets/js/features/pricing-tables.js')
+    //- script(src='assets/js/features/testimonials.js')
+    //- script(src='assets/js/features/timeline.js')
